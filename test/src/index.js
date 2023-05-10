@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Example from './Components/example';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+function Parentheses() {
+  return (<h1>
+              We can call function using name of the 
+              function followed by Parentheses 
+          </h1>);
+}
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Parentheses /> */}
+    <Example />
   </React.StrictMode>
 );
 
