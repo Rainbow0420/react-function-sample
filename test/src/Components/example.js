@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
- 
+import props from 'prop-types';
+
 const Example = () => {
     const [change, setChange] = useState(true);
     return (
