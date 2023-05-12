@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Example from './Components/example';
+import Form from './Components/form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 function Parentheses() {
@@ -16,7 +17,8 @@ root.render(
   <React.StrictMode>
     <App />
     {/* <Parentheses /> */}
-    <Example />
+    <Example name = "click"/>
+    <Form></Form>
   </React.StrictMode>
 );
 
