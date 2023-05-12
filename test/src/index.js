@@ -14,7 +14,7 @@ function Parentheses() {
 }
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <Parentheses /> */}
     <Example />
   </React.StrictMode>
